@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="VS_Practical_2a" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\..\usr\share\;CMake Files\..\..\..\..\..\..\..\usr\share\OpenCV\;CMake Files\..\..\..\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\visp\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/mscv/Downloads/Visp labs/lab1/VisualServoingPractical1/VirtualVisualServoingPractical_Points/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/mscv/Downloads/Visp\ labs/lab1/VisualServoingPractical1/VirtualVisualServoingPractical_Points/build/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/mscv/Downloads/Visp\ labs/lab1/VisualServoingPractical1/VirtualVisualServoingPractical_Points/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/mscv/Downloads/Visp\ labs/lab1/VisualServoingPractical1/VirtualVisualServoingPractical_Points/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/mscv/Downloads/Visp\ labs/lab1/VisualServoingPractical1/VirtualVisualServoingPractical_Points/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="pointBasedTracking">
+         <Option output="/home/mscv/Downloads/Visp labs/lab1/VisualServoingPractical1/VirtualVisualServoingPractical_Points/build/pointBasedTracking" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DUNIX" />
+            <Add option="-DBOOST_ALL_NO_LIB" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/OGRE" />
+            <Add directory="/usr/include/atk-1.0" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/cairo" />
+            <Add directory="/usr/include/gdk-pixbuf-2.0" />
+            <Add directory="/usr/include/glib-2.0" />
+            <Add directory="/usr/include/gtk-2.0" />
+            <Add directory="/usr/include/libusb-1.0" />
+            <Add directory="/usr/include/libxml2" />
+            <Add directory="/usr/include/ois" />
+            <Add directory="/usr/include/opencv" />
+            <Add directory="/usr/include/pango-1.0" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/lib/x86_64-linux-gnu/glib-2.0/include" />
+            <Add directory="/usr/lib/x86_64-linux-gnu/gtk-2.0/include" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/mscv/Downloads/Visp\ labs/lab1/VisualServoingPractical1/VirtualVisualServoingPractical_Points/build/Makefile&quot;  VERBOSE=1 pointBasedTracking" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/mscv/Downloads/Visp\ labs/lab1/VisualServoingPractical1/VirtualVisualServoingPractical_Points/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/mscv/Downloads/Visp\ labs/lab1/VisualServoingPractical1/VirtualVisualServoingPractical_Points/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/mscv/Downloads/Visp\ labs/lab1/VisualServoingPractical1/VirtualVisualServoingPractical_Points/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="pointBasedTracking/fast">
+         <Option output="/home/mscv/Downloads/Visp labs/lab1/VisualServoingPractical1/VirtualVisualServoingPractical_Points/build/pointBasedTracking" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DUNIX" />
+            <Add option="-DBOOST_ALL_NO_LIB" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/OGRE" />
+            <Add directory="/usr/include/atk-1.0" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/cairo" />
+            <Add directory="/usr/include/gdk-pixbuf-2.0" />
+            <Add directory="/usr/include/glib-2.0" />
+            <Add directory="/usr/include/gtk-2.0" />
+            <Add directory="/usr/include/libusb-1.0" />
+            <Add directory="/usr/include/libxml2" />
+            <Add directory="/usr/include/ois" />
+            <Add directory="/usr/include/opencv" />
+            <Add directory="/usr/include/pango-1.0" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/lib/x86_64-linux-gnu/glib-2.0/include" />
+            <Add directory="/usr/lib/x86_64-linux-gnu/gtk-2.0/include" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/mscv/Downloads/Visp\ labs/lab1/VisualServoingPractical1/VirtualVisualServoingPractical_Points/build/Makefile&quot;  VERBOSE=1 pointBasedTracking/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/mscv/Downloads/Visp\ labs/lab1/VisualServoingPractical1/VirtualVisualServoingPractical_Points/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/mscv/Downloads/Visp\ labs/lab1/VisualServoingPractical1/VirtualVisualServoingPractical_Points/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/mscv/Downloads/Visp\ labs/lab1/VisualServoingPractical1/VirtualVisualServoingPractical_Points/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/home/mscv/Downloads/Visp labs/lab1/VisualServoingPractical1/VirtualVisualServoingPractical_Points/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/mscv/Downloads/Visp\ labs/lab1/VisualServoingPractical1/VirtualVisualServoingPractical_Points/build/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/mscv/Downloads/Visp\ labs/lab1/VisualServoingPractical1/VirtualVisualServoingPractical_Points/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/mscv/Downloads/Visp\ labs/lab1/VisualServoingPractical1/VirtualVisualServoingPractical_Points/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/mscv/Downloads/Visp\ labs/lab1/VisualServoingPractical1/VirtualVisualServoingPractical_Points/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/mscv/Downloads/Visp labs/lab1/VisualServoingPractical1/VirtualVisualServoingPractical_Points/main.cpp">
+      </Unit>
+      <Unit filename="/home/mscv/Downloads/Visp labs/lab1/VisualServoingPractical1/VirtualVisualServoingPractical_Points/MyFreenectDevice.hpp">
+      </Unit>
+      <Unit filename="/home/mscv/Downloads/Visp labs/lab1/VisualServoingPractical1/VirtualVisualServoingPractical_Points/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/mscv/Downloads/Visp labs/lab1/VisualServoingPractical1/VirtualVisualServoingPractical_Points/../../../../../../../usr/share/OpenCV/OpenCVConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/mscv/Downloads/Visp labs/lab1/VisualServoingPractical1/VirtualVisualServoingPractical_Points/../../../../../../../usr/share/OpenCV/OpenCVConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/mscv/Downloads/Visp labs/lab1/VisualServoingPractical1/VirtualVisualServoingPractical_Points/../../../../../../../usr/share/OpenCV/OpenCVModules.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/mscv/Downloads/Visp labs/lab1/VisualServoingPractical1/VirtualVisualServoingPractical_Points/../../../../../../../usr/share/OpenCV/OpenCVModules-release.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/mscv/Downloads/Visp labs/lab1/VisualServoingPractical1/VirtualVisualServoingPractical_Points/../../../../../../../usr/lib/x86_64-linux-gnu/visp/VISPConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\visp\" />
+      </Unit>
+      <Unit filename="/home/mscv/Downloads/Visp labs/lab1/VisualServoingPractical1/VirtualVisualServoingPractical_Points/../../../../../../../usr/lib/x86_64-linux-gnu/visp/VISPUse.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\visp\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>

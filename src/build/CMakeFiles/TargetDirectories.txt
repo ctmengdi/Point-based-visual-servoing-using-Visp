@@ -1,0 +1,1 @@
+/home/mscv/Downloads/Visp labs/lab1/VisualServoingPractical1/VirtualVisualServoingPractical_Points/build/CMakeFiles/pointBasedTracking.dir
